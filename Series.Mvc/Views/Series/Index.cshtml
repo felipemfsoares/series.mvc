@@ -6,6 +6,7 @@
 
 <div class="text-center">
     <h1 class="display-4 mt-5">Minhas Séries</h1>
+    <a asp-action="Create" class="btn btn-secondary float-right mb-3">Nova Série</a>
     <div class="table-responsive table-striped table-hover mt-5">
         <table class="table">
           <thead>
@@ -30,7 +31,10 @@
                       <td class="align-middle">
                           <button type="button" class="btn btn-info">Ver</button>
                           <button type="button" class="btn btn-primary">Editar</button>
-                          <button type="button" class="btn btn-danger">Excluir</button>
+                          <form  onsubmit="confirm('Tem certeza que deseja apagar essa série?')" class="d-inline" method="post" asp-action="Destroy">
+                              <input type="hidden" name="Id" value="@serie.Id" />
+                              <button type="submit" class="btn btn-danger">Excluir</button>
+                          </form>
                       </td>
                   </tr>
               }

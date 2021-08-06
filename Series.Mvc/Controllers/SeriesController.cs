@@ -26,5 +26,14 @@ namespace Series.Mvc.Controllers
         {
             return View();
         }
+
+        [HttpPost, ValidateAntiForgeryToken]
+        public async Task<IActionResult> Destroy(int Id)
+        {
+            var serie = await context.Series.FindAsync(Id);
+            context.Series.Remove(serie);
+            await context.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
     }
 }
