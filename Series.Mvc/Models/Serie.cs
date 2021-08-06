@@ -8,5 +8,6 @@ namespace Series.Mvc.Models
         public string Titulo { get; set; }
         public string Descricao { get; set; }
         public int Ano { get; set; }
+        public string Genero { get; set; }
     }
 }

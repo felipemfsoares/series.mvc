@@ -46,7 +46,6 @@
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Series.Mvc.RazorCoreGenerate.cache
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
-/home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Razor/Views/Shared/_LoginPartial.cshtml.g.cs
@@ -62,3 +61,4 @@
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Series.Mvc.pdb
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Series.Mvc.genruntimeconfig.cache
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Razor/Views/Series/Index.cshtml.g.cs
+/home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Razor/Views/Series/Create.cshtml.g.cs

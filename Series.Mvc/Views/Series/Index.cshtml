@@ -2,6 +2,8 @@
     ViewData["Title"] = "Minhas séries";
 }
 
+@model List<Serie>
+
 <div class="text-center">
     <h1 class="display-4 mt-5">Minhas Séries</h1>
     <div class="table-responsive table-striped table-hover mt-5">
@@ -10,23 +12,28 @@
             <tr>
               <th scope="col">Id</th>
               <th scope="col">Título</th>
-              <th scope="col">Gênero</th>
+                <th scope="col">Gênero</th>
+                <th scope="col">Descrição</th>
               <th scope="col">Ano</th>
               <th scope="col">Ações</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <th scope="row" class="align-middle">1</th>
-              <td class="align-middle">Sobrenatural</td>
-              <td class="align-middle">Suspense</td>
-              <td class="align-middle">2012</td>
-              <td class="align-middle">
-                <button type="button" class="btn btn-info">Ver</button>
-                <button type="button" class="btn btn-primary">Editar</button>
-                <button type="button" class="btn btn-danger">Excluir</button>
-              </td>
-            </tr>
+              @foreach (var serie in @Model)
+              {
+                  <tr>
+                      <th scope="row" class="align-middle">@serie.Id</th>
+                      <td class="align-middle">@serie.Titulo</td>
+                      <td class="align-middle">@serie.Genero</td>
+                      <td class="align-middle">@serie.Descricao</td>
+                      <td class="align-middle">@serie.Ano</td>
+                      <td class="align-middle">
+                          <button type="button" class="btn btn-info">Ver</button>
+                          <button type="button" class="btn btn-primary">Editar</button>
+                          <button type="button" class="btn btn-danger">Excluir</button>
+                      </td>
+                  </tr>
+              }
           </tbody>
         </table>
     </div>
