@@ -61,3 +61,4 @@
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/ref/Series.Mvc.dll
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Series.Mvc.pdb
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Series.Mvc.genruntimeconfig.cache
+/home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Razor/Views/Series/Index.cshtml.g.cs

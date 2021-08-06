@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Series.Mvc.Data;
@@ -9,9 +10,10 @@ using Series.Mvc.Data;
 namespace Series.Mvc.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210806011009_SerieCreate")]
+    partial class SerieCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -227,7 +229,7 @@ namespace Series.Mvc.Migrations
                     b.Property<int>("Ano")
                         .HasColumnType("integer");
 
-                    b.Property<string>("Descricao")
+                    b.Property<string>("Descrica")
                         .HasColumnType("text");
 
                     b.Property<string>("Titulo")
