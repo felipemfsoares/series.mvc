@@ -16,6 +16,7 @@ namespace Series.Mvc.Models
         
         [Display(Name = "Ano")]
         [Required(ErrorMessage = "Informe o ano")]
+        [Range(1970, int.MaxValue, ErrorMessage = "Informe um ano válido")]
         public int Ano { get; set; }
         
         [Display(Name = "Gênero")]

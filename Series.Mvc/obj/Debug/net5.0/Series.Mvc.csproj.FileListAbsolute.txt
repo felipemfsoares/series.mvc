@@ -62,3 +62,5 @@
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Series.Mvc.genruntimeconfig.cache
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Razor/Views/Series/Index.cshtml.g.cs
 /home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Razor/Views/Series/Create.cshtml.g.cs
+/home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Razor/Views/Series/Edit.cshtml.g.cs
+/home/felipe.soares@ssol.local/RiderProjects/Series.Mvc/Series.Mvc/obj/Debug/net5.0/Razor/Views/Series/_Form.cshtml.g.cs

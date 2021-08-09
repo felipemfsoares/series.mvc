@@ -1,0 +1,8 @@
+@{
+    ViewData["Title"] = "Editar série";
+}
+
+@using (Html.BeginForm("Update", "Series", FormMethod.Post))
+{
+    @await Html.PartialAsync("_Form")
+}

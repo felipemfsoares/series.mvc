@@ -2,4 +2,7 @@
     ViewData["Title"] = "Nova série";
 }
 
-
+@using (Html.BeginForm("Store", "Series", FormMethod.Post))
+{
+    @await Html.PartialAsync("_Form")
+}
